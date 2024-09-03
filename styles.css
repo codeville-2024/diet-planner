@@ -466,3 +466,17 @@ section {
   height: 50px;
   background-color: #32794f;
 }
+#lankaidi {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+#quick {
+  display: flex;
+}
+#quick2 {
+  padding-top: 10px;
+  margin-left: 10px;
+}
