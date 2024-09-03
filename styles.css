@@ -80,11 +80,11 @@
   gap: 7px;
 }
 #henesy {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: start; */
 }
-#hero- {
+#hero {
   display: flex;
   justify-content: space-around;
 }
@@ -232,13 +232,13 @@ section {
   background-color: #f2fff5;
   align-items: center;
   justify-content: center;
+  gap: 20px;
   box-shadow: 4px 4px 7px 0px #beebc280;
   border-radius: 20px;
-  width: 780px;
-  height: 239px;
-  padding: 34px 61px 34px 61px;
+  max-width: 600px;
+  width: 100%;
   margin: auto;
-  column-gap: 101px;
+  padding: 20px;
 }
 
 #Keto {
@@ -256,13 +256,12 @@ section {
   border: none;
 }
 #ongoing-image {
-  height: 150px;;
+  height: 150px;
 }
 #ongoing-image img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-
 }
 
 #cway {
@@ -358,37 +357,83 @@ section {
   justify-content: center;
   align-items: center;
 }
-#nav-pat {
-  width: 174.15px;
-  height: 32.04px;
-}
 #management {
   display: flex;
   justify-content: space-evenly;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
 }
 
-#Net-op1{
-  color: #000000;
-  background: #32794F;
-
-  
+#Net-op1 {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  background: #32794f;
+  width: 540px;
+  gap: 10px;
+  padding: 10px 0;
+  border-radius: 0px 20px 20px 0px;
+  opacity: 0px;
 }
 
 #Net-op2 {
-  color:#000000;
+  color: #ffffff;
   font-size: 32px;
-  margin-bottom: 75px;
-  column-gap: 30px;
-
+  padding: 0 20px;
 }
 #Net-op3 {
-  display: flex;
-  flex-direction: column;
-  font-size: 32px; 
-
+  text-align: right;
+  font-size: 70px;
+  color: #f2fff5;
 }
 
+#milk {
+  color: #32794f;
+  padding: 10px 0;
+  width: 514px;
+  font-size: 70px;
+}
 
+#crumbl {
+  display: flex;
+}
 
+#sodium {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+#fat-pdsh {
+  margin-top: 55px;
+  padding: 20px 0;
+}
+.academy {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+#img-30 {
+  display: flex;
+  justify-content: space-between;
+}
 
-
+#net-obvp {
+  display: flex;
+  align-items: end;
+}
+#man {
+  width:100% ;
+  padding: 20px;
+  background-image: url("Rectangle\ 24.png");
+  background-size: cover;
+}
+#see-all {
+  display: flex;
+gap: 20px;
+align-items: center;
+justify-content: center;
+}
+#nutrition{
+  background-color: #f5fdf7;
+  padding: 20px 0;
+}
