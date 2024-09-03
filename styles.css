@@ -437,3 +437,8 @@ justify-content: center;
   background-color: #f5fdf7;
   padding: 20px 0;
 }
+
+#customize {
+  display: flex;
+  justify-content: center;
+}
