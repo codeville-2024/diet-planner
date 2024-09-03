@@ -422,28 +422,47 @@ section {
   align-items: end;
 }
 #man {
-  width:100% ;
+  width: 100%;
   padding: 20px;
   background-image: url("Rectangle\ 24.png");
   background-size: cover;
 }
 #see-all {
   display: flex;
-gap: 20px;
-align-items: center;
-justify-content: center;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
-#nutrition{
+#nutrition {
   background-color: #f5fdf7;
   padding: 20px 0;
 }
-
+#comma {
+  font-family: "Courier New", Courier, monospace;
+}
 #customize {
   display: flex;
   justify-content: center;
 }
 
 #customize-2 {
-color: #000000;
-font-size: 28px;
+  color: #000000;
+  font-size: 28px;
+  text-align: center;
+}
+.cust-ize {
+  color: #32794f;
+  font-family: arial;
+}
+
+#super {
+  display: flex;
+  justify-content: center;
+}
+#supers {
+  margin-top: 35px;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: #32794f;
 }
