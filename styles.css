@@ -87,6 +87,7 @@
 #hero {
   display: flex;
   justify-content: space-around;
+  box-shadow: 0px 3px 10px 0px #DDF7E3;
 }
 header {
   padding: 0 30px 0 30px;
@@ -99,7 +100,7 @@ section {
   color: black;
   text-align: center;
   margin-left: 1px;
-  gap: 0px;
+  padding-top: 100px;
 }
 #text {
   display: flex;
