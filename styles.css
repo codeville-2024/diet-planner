@@ -87,7 +87,7 @@
 #hero {
   display: flex;
   justify-content: space-around;
-  box-shadow: 0px 3px 10px 0px #DDF7E3;
+  box-shadow: 0px 3px 10px 0px #ddf7e3;
 }
 header {
   padding: 0 30px 0 30px;
@@ -490,6 +490,7 @@ section {
 }
 #club {
   font-size: 32px;
+  margin-top: 40px;
 }
 
 #club-2 {
@@ -503,12 +504,86 @@ section {
   height: 405px;
 }
 #charset-oope {
-  background-color: #DDF7E3;
+  background-color: #ddf7e3;
 }
-#Bodybuilding {
+#tems {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 #cancel-oytyur {
   font-size: 20px;
+  margin-top: 20px;
+}
+
+#weeks {
+  margin-top: 25px;
+}
+
+#Bodybuilding {
+  background: #f2fff5;
+}
+
+#ONly {
+  margin-top: 75px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#only-2 {
+  font-size: 32px;
+  color: #000000;
+}
+
+#only-3 {
+  color: #dc2f39;
+  font-size: 40px;
+}
+
+#mark-opj-1 {
+  display: flex;
+  justify-content: center;
+}
+
+#mark-opj {
+  justify-content: center;
+}
+#navy {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#bureey {
+  display: flex;
+  justify-content: space-evenly;
+  color: #424242;
+  font-size: x-small;
+}
+#section2 {
+  margin-top: 75px;
+  background-color: #beebc2;
+}
+#Specialize {
+  height: 40px;
+}
+#social {
+  display: flex;
+  justify-content: center;
+  margin-top: 69px;
+}
+#clinic {
+  display: flex;
+  justify-content: center;
+  margin-top: 72.38px;
+}
+#clinic-2 {
+  color: #000000;
+  font-size: 20px;
+}
+#line {
+  border-bottom: 1px solid gray;
+  padding-top: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
