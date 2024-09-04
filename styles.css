@@ -480,3 +480,34 @@ section {
   padding-top: 10px;
   margin-left: 10px;
 }
+#paris {
+  color: #000000;
+  font-size: 32px;
+  right: 50px;
+  margin-top: 60px;
+  text-align: left;
+}
+#club {
+  font-size: 32px;
+}
+
+#club-2 {
+  color: #32794f;
+}
+#rems {
+  display: flex;
+}
+#fat-man {
+  width: 450px;
+  height: 405px;
+}
+#charset-oope {
+  background-color: #DDF7E3;
+}
+#Bodybuilding {
+  display: flex;
+  justify-content: space-evenly;
+}
+#cancel-oytyur {
+  font-size: 20px;
+}
