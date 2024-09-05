@@ -592,4 +592,28 @@ section {
   margin-top: 43px;
   text-align: center;
 }
-
+#background-image {
+  background-image: url("Rectangle 21 (10).png");
+  display: flex;
+  list-style-type: none;
+  column-gap: 60px;
+  align-items: center;
+}
+#DAY-1 {
+  display: flex;
+  justify-content: center;
+}
+#div-pop {
+  padding: 100px;
+  
+}
+.li-tag {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#bitesewr {
+  padding: 20px;
+}
