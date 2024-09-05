@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Choose your goals</title>
+    <link rel="stylesheet" href="healthy.css" />
   </head>
   <body>
     <div id="background-image">
@@ -18,59 +18,66 @@
         </ul>
     </div>
     
-    <div>
-        <div id="daily-drdp">
+    <div id="health-container">
+        <div id="daily-drop">
             <p id="deep">
                 welcome to HealthyBite 
                 <p id="gone">Choose your goals</p>
             </p>
             <div id="bone">
               <div class="health-goal">
-                <div class="goal-div">
+                <input type="radio" name="health-goal" value="muscle-build" id="muscle-build" hidden>
+                <label class="goal-div" for="muscle-build">
                   <div class="content">
                     <img src="Group (1).png"/>
                     <p>Muscle Build</p>
                   </div>
                   <span>7500 members</span>
-                </div>
+                </label>
               </div>
-              <div id="bone">
+
                 <div class="health-goal">
-                  <div class="goal-div">
+                  <input type="radio" name="health-goal" value="loose-weight" id="loose-weight" hidden>
+                  <label class="goal-div" for="loose-weight">
                     <div class="content">
                       <img src="maintain weight icon.png"/>
                       <p>Loose weight</p>
                     </div>
                     <span>7,532 members</span>
-                  </div>
+                  </label>
                 </div>
-                <div id="bone">
-                  <div class="health-goal">
-                    <div class="goal-div">
-                      <div class="content">
-                        <img src="Group (1).png"/>
-                        <p>Gain weight</p>
-                      </div>
-                      <span>4,032 members</span>
+                
+                <div class="health-goal">
+                  <input type="radio" name="health-goal" value="gain-weight" id="gain-weight" hidden>
+                  <label class="goal-div" for="gain-weight">
+                    <div class="content">
+                      <img src="Group (1).png"/>
+                      <p> Gain weight</p>
                     </div>
-                  </div>
-                  <div id="bone">
-                    <div class="health-goal">
-                      <div class="goal-div">
-                        <div class="content">
-                          <img src="Group (1).png"/>
-                          <p>Maintain weight</p>
-                        </div>
-                        <span>6,908 members</span>
-                      </div>
+                    <span>4,032 members</span>
+                  </label>
+                </div>
+                  
+                <div class="health-goal">
+                  <input type="radio" name="health-goal" value="maintain-weight" id="maintain-weight" hidden>
+                  <label class="goal-div" for="maintain-weight">
+                    <div class="content">
+                      <img src="Group (1).png"/>
+                      <p>Maintain weight</p>
                     </div>
+                    <span>6,908 members</span>
+                  </label>
+                </div>
+              </div>
                     
                 
               <button id="next">Next</button>
-            </div>
         </div>
-       
+
+        <div id="health-image">
+          <img src="Rectangle 33.png"/>
+        </div>
     </div>
-   
+          
   </body>
 </html>

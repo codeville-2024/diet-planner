@@ -587,43 +587,9 @@ section {
   margin-left: 100px;
   margin-right: 100px;
 }
-#background-image {
-  background-image: url("Rectangle 21 (10).png");
-  display: flex;
-  list-style-type: none;
-  column-gap: 60px;
-  align-items: center;
-}
 
 #daily-drdp {
   margin-top: 43px;
   text-align: center;
 }
-#deep {
-  font-size: 40px;
-  color: #32794f;
-}
-#gone {
-  color: #000000;
-  font-size: 28px;
-  margin-top: 30px;
-  margin-top: 41px;
-}
-input {
-  width:520px;
-  height: 60px;
-  margin-bottom: 50px;
-  background-color: #f2fff5;
-  border-radius: 10px;
-  gap: 41px;
-}
-#next {
-  background: #32794F;
-  width: 520px;
-  height: 51px;
-  padding: 12px 188px 12px 188px;
-  gap: 10px;
-  border-radius: 10px 0px 0px 0px;
 
-  
-}
